@@ -9,6 +9,7 @@
   <link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
   <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel='stylesheet' type='text/css'>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.css"
 
   <style>
   body {
@@ -55,20 +56,17 @@
     <div class="container">
       
 
-      <img class="logo" src="/images/banner.jpg" alt="needs an image :(">
+      <img class="logo" src="images/banner.jpg" alt="needs an image :(">
       <h1> <p id="demo"></p></h1>
       <script>
         
-var i = 0;
-var txt = 'I ust got 250 kt!'; /* The text */
-var speed = 50; /* The speed/duration of the effect in milliseconds */
+var i = 0; var txt = 'I ust got 250 kt!'; var speed = 50; /* The speed/duration of the effect in milliseconds */
 
 function typeWriter() {
   if (i < txt.length) {
     document.getElementById("demo").innerHTML += txt.charAt(i);
     i++;
-    setTimeout(typeWriter, speed);
-  }
+    setTimeout(typeWriter, speed) }
 }
       </script>
       <p class="button"> you ain't met a fag with this kinda money yet</p>
