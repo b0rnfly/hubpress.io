@@ -52,9 +52,23 @@
 
   <div class="wrapper">
     <div class="container">
+      
 
       <img class="logo" src="/images/banner.jpg" alt="Logo HubPress.io">
-      <h1>Gregsadev<span></span>.</h1>
+      <h1> <p id="demo"></p></h1>
+      <script>
+      var i = 0;
+var txt = 'Lorem ipsum typing effect!'; /* The text */
+var speed = 50; /* The speed/duration of the effect in milliseconds */
+
+function typeWriter() {
+  if (i < txt.length) {
+    document.getElementById("demo").innerHTML += txt.charAt(i);
+    i++;
+    setTimeout(typeWriter, speed);
+  }
+}
+      </script>
       <p class="button"> you ain't met a fag with this kinda money yet</p>
 
       <a href="https://twitter.com/g0yobih" class="twitter-follow-button" data-show-count="false">Follow @g0yo</a>
